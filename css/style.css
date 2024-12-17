@@ -18,7 +18,7 @@ a {
 
 .header {
     grid-area: header;
-    background: #133E87;
+    background: #37AFE1;
     padding: 1rem;
     color: #F3F3E0;
     text-align: center;
@@ -27,37 +27,37 @@ a {
 
 .nav {
     grid-area: nav;
-    background: #133E87;
+    background: #37AFE1;
     padding: 1rem;
     color: #F3F3E0;
 }
 
 .main {
     grid-area: main;
-    background: #133E87;
+    background: #37AFE1;
     padding: 1rem;
     color: #F3F3E0;
 }
 
 .sidebar {
     grid-area: sidebar;
-    background: #133E87;
+    background: #37AFE1;
     padding: 1rem;
     color: #F3F3E0;
 }
 
 .footer {
     grid-area: footer;
-    background: #133E87;
+    background: #37AFE1;
     padding: 1rem;
     color: #F3F3E0;
     text-align: center;
 }
 .main img, 
 .sidebar img {
-    width: 100%;     /* ให้ภาพขยายเต็มพื้นที่คอลัมน์ */
-    height: 100%;    /* คงอัตราส่วนความสูงอัตโนมัติ */
-    max-width: 1920px; /* กำหนดความกว้างสูงสุด */
-    display: block;  /* จัดการไม่ให้เกิดพื้นที่ว่าง */
-    margin: 0 auto;  /* จัดกึ่งกลางภาพหากขนาดเล็กกว่าพื้นที่ */
+    width: 100%;  
+    height: 100%;   
+    max-width: 1920px; 
+    display: block; 
+    margin: 0 auto;  
 }
