@@ -7,7 +7,7 @@
 body { 
     background: #ffffff;
     font-family: Arial, sans-serif; 
-    line-height: 1.6; 
+    line-height: 2; 
 } 
  
 header { 
@@ -21,7 +21,10 @@ nav ul {
     display: flex; 
     gap: 1rem; 
 } 
- 
+li {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+ }
 nav a { 
     color: #fff; 
     text-decoration: none; 
@@ -39,7 +42,7 @@ main {
  
 footer { 
     background: #EAE4DD; 
-    color: #fff; 
+    color: #000000; 
     text-align: center; 
     padding: 1rem; 
     position: fixed; 
