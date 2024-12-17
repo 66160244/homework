@@ -1,51 +1,63 @@
-.grid-container { 
-    display: grid; 
-    grid-template-areas:  
-        "header header header" 
-        "nav main sidebar" 
-        "footer footer footer"; 
-    grid-template-columns: 200px 1fr 200px; 
-    grid-template-rows: auto 1fr auto; 
-    min-height: 100vh; 
-    gap: 1rem; 
-    padding: 1rem; 
-} 
-a{
-    color: #F3F3E0; 
- }
-.header {  
-    grid-area: header; 
-    background: #133E87; 
-    padding: 1rem; 
-    color: #F3F3E0; 
-    text-align:center;
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav main sidebar"
+        "footer footer footer";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+a {
+    color: #F3F3E0;
     font-size: 20px;
-} 
- 
-.nav { 
-    grid-area: nav; 
-    background: #133E87; 
-    padding: 1rem; 
-    color: #F3F3E0; 
-} 
- 
-.main { 
-    grid-area: main; 
-    background: #133E87; 
-    padding: 1rem; 
-    color: #F3F3E0; 
-} 
- 
-.sidebar { 
-    grid-area: sidebar; 
-    background: #133E87; 
-    padding: 1rem; 
-    color: #F3F3E0; 
-} 
- 
-.footer { 
-    grid-area: footer; 
-    background: #133E87; 
-    padding: 1rem; 
-    color: white; 
+}
+
+.header {
+    grid-area: header;
+    background: #133E87;
+    padding: 1rem;
+    color: #F3F3E0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav {
+    grid-area: nav;
+    background: #133E87;
+    padding: 1rem;
+    color: #F3F3E0;
+}
+
+.main {
+    grid-area: main;
+    background: #133E87;
+    padding: 1rem;
+    color: #F3F3E0;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #133E87;
+    padding: 1rem;
+    color: #F3F3E0;
+}
+
+.footer {
+    grid-area: footer;
+    background: #133E87;
+    padding: 1rem;
+    color: #F3F3E0;
+    text-align: center;
+}
+.main img, 
+.sidebar img {
+    width: 100%;     /* ให้ภาพขยายเต็มพื้นที่คอลัมน์ */
+    height: 100%;    /* คงอัตราส่วนความสูงอัตโนมัติ */
+    max-width: 1920px; /* กำหนดความกว้างสูงสุด */
+    display: block;  /* จัดการไม่ให้เกิดพื้นที่ว่าง */
+    margin: 0 auto;  /* จัดกึ่งกลางภาพหากขนาดเล็กกว่าพื้นที่ */
 }
