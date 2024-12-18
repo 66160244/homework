@@ -8,7 +8,7 @@
 
 body {
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #3E5879;
     color: #333;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
 
 
 header {
-    background-color: #0078D7;
+    background-color: #001A6E;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -57,7 +57,7 @@ main {
 
 h2 {
     margin-bottom: 1rem;
-    color: #0078D7;
+    color: #001A6E;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ input, textarea {
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: #0078D7;
+    border-color: #001A6E;
 }
 
 small {
@@ -99,7 +99,7 @@ small {
 }
 
 button {
-    background-color: #0078D7;
+    background-color: #001A6E;
     color: #fff;
     border: none;
     padding: 0.75rem;
